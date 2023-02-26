@@ -18,7 +18,8 @@ ASK_AMT—Funding amount requested
 IS_SUCCESSFUL—Was the money used effectively 
 
 
-## Instructions
+## Instructions 
+
 ## Step 1: Preprocess the Data 
 
 Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
@@ -66,7 +67,7 @@ Evaluate the model using the test data to determine the loss and accuracy.
 
 Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
 
-Step 3: Optimize the Model  
+## Step 3: Optimize the Model  
 
 Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
 
@@ -79,8 +80,9 @@ Increasing or decreasing the number of values for each bin.
 Add more neurons to a hidden layer.
 Add more hidden layers.
 Use different activation functions for the hidden layers.
-Add or reduce the number of epochs to the training regimen.
-Note: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
+Add or reduce the number of epochs to the training regimen. 
+
+ Note: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
 
 Create a new Jupyter Notebook file and name it AlphabetSoupCharity_Optimization.ipynb.
 
@@ -102,7 +104,7 @@ Overview of the analysis: Explain the purpose of this analysis.
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
-Data Preprocessing
+## Data Preprocessing
 
 What variable(s) are the target(s) for your model?
 What variable(s) are the features for your model?
@@ -113,4 +115,5 @@ How many neurons, layers, and activation functions did you select for your neura
 Were you able to achieve the target model performance?
 What steps did you take in your attempts to increase model performance? 
 
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+## Summary: 
+Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
